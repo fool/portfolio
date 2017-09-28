@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Moods on Yorgo Hoebeke Art Portfolio</title>
-    <link>/moods/</link>
+    <link>/professional-site/moods/</link>
     <description>Recent content in Moods on Yorgo Hoebeke Art Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="/moods/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/professional-site/moods/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

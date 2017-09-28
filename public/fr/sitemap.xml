@@ -3,62 +3,62 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/fr/categories/</loc>
+    <loc>/professional-site/fr/categories/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/categories/"
+                href="/professional-site/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/categories/"
+                href="/professional-site/fr/categories/"
                 />
   </url>
   
   <url>
-    <loc>/fr/moods/</loc>
+    <loc>/professional-site/fr/moods/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/moods/"
+                href="/professional-site/moods/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/moods/"
+                href="/professional-site/fr/moods/"
                 />
   </url>
   
   <url>
-    <loc>/fr/tags/</loc>
+    <loc>/professional-site/fr/tags/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tags/"
+                href="/professional-site/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/tags/"
+                href="/professional-site/fr/tags/"
                 />
   </url>
   
   <url>
-    <loc>/fr/</loc>
+    <loc>/professional-site/fr/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/"
+                href="/professional-site/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/"
+                href="/professional-site/fr/"
                 />
   </url>
   

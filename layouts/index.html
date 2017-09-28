@@ -32,7 +32,7 @@
                                                     
                                                         <a title="lightbox view" style="margin-left:40px" data-effect="mfp-zoom-out" class="popup-link" href="{{$.Site.BaseURL}}{{.Params.img_full[0]}}"> <i class="icon-basic_magnifier"></i> 
                                                         </a>
-                                                    </div>
+                                                </div>
                                                     <div class="portfolio-description">
                                                         <h4><a href="{{.URL}}#images">{{.Title}}</a></h4>
                                                         <p>{{ range $i, $e := .Params.tags }} {{ if $i }} , {{ end }}<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>{{ end }}

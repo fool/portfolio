@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Yorgo Hoebeke Art Portfolio</title>
-    <link>/tags/</link>
+    <link>/professional-site/tags/</link>
     <description>Recent content in Tags on Yorgo Hoebeke Art Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 24 Sep 2017 21:14:11 +0200</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/professional-site/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Black</title>
-      <link>/tags/black/</link>
+      <link>/professional-site/tags/black/</link>
       <pubDate>Sun, 24 Sep 2017 21:14:11 +0200</pubDate>
       
-      <guid>/tags/black/</guid>
+      <guid>/professional-site/tags/black/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Color</title>
-      <link>/tags/color/</link>
+      <link>/professional-site/tags/color/</link>
       <pubDate>Sun, 24 Sep 2017 21:14:11 +0200</pubDate>
       
-      <guid>/tags/color/</guid>
+      <guid>/professional-site/tags/color/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Drawing</title>
-      <link>/tags/drawing/</link>
+      <link>/professional-site/tags/drawing/</link>
       <pubDate>Sun, 24 Sep 2017 20:52:31 +0200</pubDate>
       
-      <guid>/tags/drawing/</guid>
+      <guid>/professional-site/tags/drawing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Paint</title>
-      <link>/tags/paint/</link>
+      <link>/professional-site/tags/paint/</link>
       <pubDate>Sun, 24 Sep 2017 21:14:11 +0200</pubDate>
       
-      <guid>/tags/paint/</guid>
+      <guid>/professional-site/tags/paint/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Writing</title>
-      <link>/tags/writing/</link>
+      <link>/professional-site/tags/writing/</link>
       <pubDate>Sun, 24 Sep 2017 20:52:31 +0200</pubDate>
       
-      <guid>/tags/writing/</guid>
+      <guid>/professional-site/tags/writing/</guid>
       <description></description>
     </item>
     
