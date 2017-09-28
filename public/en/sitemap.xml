@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/blog/test/</loc>
+    <lastmod>2017-09-24T21:14:11+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/gallery/b/</loc>
+    <lastmod>2017-09-24T20:52:31+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/gallery/nouvel-oeuvre/</loc>
+    <lastmod>2017-09-24T20:52:31+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/about/</loc>
+    <lastmod>2017-09-24T20:51:21+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>/categories/art/</loc>
+    <lastmod>2017-09-24T21:14:11+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/black/</loc>
+    <lastmod>2017-09-24T21:14:11+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/blog/</loc>
+    <lastmod>2017-09-24T21:14:11+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2017-09-24T21:14:11+02:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>/tags/color/</loc>
+    <lastmod>2017-09-24T21:14:11+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/drawing/</loc>
+    <lastmod>2017-09-24T20:52:31+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/gallery/</loc>
+    <lastmod>2017-09-24T20:52:31+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/letters--art/</loc>
+    <lastmod>2017-09-24T20:52:31+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/mixed-art/</loc>
+    <lastmod>2017-09-24T20:52:31+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/moods/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/moods/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/moods/"
+                />
+  </url>
+  
+  <url>
+    <loc>/tags/paint/</loc>
+    <lastmod>2017-09-24T21:14:11+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2017-09-24T21:14:11+02:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>/tags/writing/</loc>
+    <lastmod>2017-09-24T20:52:31+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2017-09-24T21:14:11+02:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/"
+                />
+  </url>
+  
+</urlset>

@@ -1,6 +1,5 @@
-baseURL = "https://rhydderch.gitlab.io/professional-site"
+baseURL = "/"
 title = "Yorgo Hoebeke Art Portfolio"
-
 defaultContentLanguage = "en"
 [taxonomies]
     tag = "tags"
