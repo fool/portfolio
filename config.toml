@@ -1,0 +1,75 @@
+baseURL = "http://localhost:1313/"
+title = "Yorgo Hoebeke Art Portfolio"
+
+defaultContentLanguage = "en"
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    mood = "moods"
+
+
+[languages.en]
+weight = 0
+languageName = "English"
+languageCode = "en-us"
+
+    [[languages.en.menu.main]]
+    identifier = "portfolio"
+    name       = "Portfolio"
+    url        = "/"
+    weight     = 1
+
+    [[languages.en.menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/blog/"
+    weight     = 3
+
+    [[languages.en.menu.main]]
+    identifier = "about"
+    name       = "About Me"
+    url        = "/about/"
+    weight     = 4
+
+    [[languages.en.menu.main]]
+    identifier = "contact"
+    name       = "Contact Me"
+    url        = "/contact/"
+    weight     = 5
+
+
+
+[languages.fr]
+weight = 10
+languageName = "Français"
+languageCode = "fr"
+
+    [[languages.fr.menu.main]]
+    
+    name       = "Accueil"
+    url        = "/"
+    weight     = 1
+
+    [[languages.fr.menu.main]]
+    
+    name       = "Gallerie"
+    url        = "/gallerie/"
+    weight     = 2
+
+    [[languages.fr.menu.main]]
+    
+    name       = "Blog"
+    url        = "/blog/"
+    weight     = 3
+
+    [[languages.fr.menu.main]]
+    
+    name       = "Qui suis-je ?"
+    url        = "/quisuisje/"
+    weight     = 4
+
+    [[languages.fr.menu.main]]
+    
+    name       = "Me Contacter"
+    url        = "/contact/"
+    weight     = 5

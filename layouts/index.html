@@ -1,0 +1,57 @@
+{{ define "main" }}
+<!--portfolio-->
+<div class=" page-content">
+        <div class="container wow fadeInUp" data-wow-delay="0" data-wow-duration="2s">
+            <div class="row">
+                <div class="col-md-12">
+
+                    <div class="text-center">
+                        <ul class="portfolio-filter">
+                                <li class="active"><a href="#" data-filter="*">All</a>
+                                </li>
+                        {{ range .Site.Taxonomies.tags.ByCount }}
+                            <li><a href="#" data-filter=".{{ .Name }}">{{ .Name | humanize }}</a>
+                            </li>
+                        {{end}}
+                        </ul>
+                    </div>
+
+                    <div class="portfolio portfolio-masonry col-3 gutter" style="height: 1566.33px; position: relative;">
+
+                        {{range where .Data.Pages ".Type" "eq" "gallery"}}
+                            
+                            
+                                
+                                <div class="portfolio-item {{ range .Params.tags }} {{ . }} {{ end }} " style="left: 0%; top: 0px; position: absolute;">
+                                        <div class="thumb">
+                                                <img alt="" src="{{.Params.img_thumbnail}}">
+                                                <div class="portfolio-hover">
+                                                    <div class="action-btn" >
+                                                        <a href="{{.URL}}#images" style="margin-left:0px"> <i class="icon-basic_link"></i> 
+                                                        </a>
+                                                    
+                                                        <a title="lightbox view" style="margin-left:40px" data-effect="mfp-zoom-out" class="popup-link" href="/img/portfolio/masonry/5.jpg"> <i class="icon-basic_magnifier"></i> 
+                                                        </a>
+                                                    </div>
+                                                    <div class="portfolio-description">
+                                                        <h4><a href="{{.URL}}#images">{{.Title}}</a></h4>
+                                                        <p>{{ range $i, $e := .Params.tags }} {{ if $i }} , {{ end }}<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>{{ end }}
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    </div>
+                            
+                        {{end}}
+
+                    </div>
+                </div>
+
+                <!-- <div class="col-md-12 text-center">
+                    <a class="p-read-more" href="#">View More <i class="icon-arrows_slim_right"></i></a>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!--portfolio-->
+{{ end }}

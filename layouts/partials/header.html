@@ -1,0 +1,31 @@
+
+<header class="l-header l-header_overlay">
+        
+                    <div class="l-navbar l-navbar_expand l-navbar_t-dark-trans l-navbar_s-center">
+                        <div class="container">
+                            <nav class="menuzord js-primary-navigation" role="navigation" aria-label="Primary Navigation">
+        
+                                <!--logo start-->
+                                <a href="index.html" class="logo-brand wow fadeIn" data-wow-delay="0" data-wow-duration="3s" style="margin-top:30px;height:130px;margin-bottom:-30px;">
+                                    <img class="retina" src="/img/logo-dark@2x.png" alt="Massive">
+                                </a>
+                                <!--logo end-->
+        
+                                <!--mega menu start-->
+                                <ul class="menuzord-menu menuzord-right c-nav_s-standard c-nav_s-underline menuzord-indented  ">
+                                        {{- $currentPage := . -}}
+                                        {{ range .Site.Menus.main -}}
+                                        <li {{ if ($currentPage.IsMenuCurrent "main" .)}} class="active"{{ end }}>
+                                            <a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+                                        </li>
+                                        {{- end }}
+                                      
+                                </ul>
+                                <!--mega menu end-->
+        
+                            </nav>
+                        </div>
+                    </div>
+        
+                </header>
+                
