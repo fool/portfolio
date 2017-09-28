@@ -24,13 +24,13 @@
                                 
                                 <div class="portfolio-item {{ range .Params.tags }} {{ . }} {{ end }} " style="left: 0%; top: 0px; position: absolute;">
                                         <div class="thumb">
-                                                <img alt="" src="{{.Params.img_thumbnail}}">
+                                                <img alt="" src="{{$.Site.BaseURL}}{{.Params.img_thumbnail}}">
                                                 <div class="portfolio-hover">
                                                     <div class="action-btn" >
                                                         <a href="{{.URL}}#images" style="margin-left:0px"> <i class="icon-basic_link"></i> 
                                                         </a>
                                                     
-                                                        <a title="lightbox view" style="margin-left:40px" data-effect="mfp-zoom-out" class="popup-link" href="/img/portfolio/masonry/5.jpg"> <i class="icon-basic_magnifier"></i> 
+                                                        <a title="lightbox view" style="margin-left:40px" data-effect="mfp-zoom-out" class="popup-link" href="{{$.Site.BaseURL}}{{.Params.img_full}}"> <i class="icon-basic_magnifier"></i> 
                                                         </a>
                                                     </div>
                                                     <div class="portfolio-description">

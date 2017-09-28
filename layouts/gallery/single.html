@@ -15,7 +15,7 @@
             <div id="images" class="full-width text-center p-top-20">
                 {{range $index, $element := .Params.img_full}}
                     
-                    <img class="p-top-20" style="width: auto;max-height:600px;margin:auto;" src="{{ $element }}" alt="">
+                    <img class="p-top-20" style="width: auto;max-height:600px;margin:auto;" src="{{$.Site.BaseURL}}{{ $element }}" alt="">
                  {{ end }}
                 
             </div>
