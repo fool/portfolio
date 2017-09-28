@@ -1,7 +1,7 @@
 ---
 title: "A"
 date: 2017-09-24T20:51:21+02:00
-draft: true
+draft: false
 myVar: "myvariable"
 color: "red"
 type: "page"

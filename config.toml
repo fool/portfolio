@@ -23,19 +23,19 @@ languageCode = "en-us"
     identifier = "blog"
     name       = "Blog"
     url        = "/blog/"
-    weight     = 3
+    weight     = 2
 
     [[languages.en.menu.main]]
     identifier = "about"
     name       = "About Me"
     url        = "/about/"
-    weight     = 4
+    weight     = 3
 
     [[languages.en.menu.main]]
     identifier = "contact"
     name       = "Contact Me"
     url        = "/contact/"
-    weight     = 5
+    weight     = 4
 
 
 
